@@ -1,0 +1,297 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amazon Ember', sans-serif;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 0px 0px;
+    background-color: #1a242f;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.logo {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 150px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.logo>a {
+    padding: 10px;
+    flex-direction: row;
+    font-size: 15px;
+    color: rgba(242, 244, 246, 0.9);
+
+}
+
+.right-menu {
+    padding: 25px;
+    /* flex-direction: row;
+    display: flex;
+    align-items: center; */
+    font-size: 22px;
+
+}
+
+.right-menu button {
+    margin-right: 20px;
+    background-color: #0f79af;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.right-menu a {
+    color: rgba(242, 244, 246, 0.9);
+    padding: 5px 15px;
+
+}
+.right-menu button:hover{
+background-color:red ;
+box-shadow: 0px 2px 1px #000;
+}
+
+.right-menu label:hover {
+    cursor: pointer;
+}
+
+.right-menu a:nth-child(2),
+.right-menu>a>label {
+    font-size: 18px;
+    padding: 0px 3px;
+}
+
+.arrow-down {
+    font-size: 12px;
+}
+
+/* main-content */
+header {
+    position: relative;
+    min-width: 320px;
+    /* height: 680px; */
+    overflow: hidden;
+    color: #fff;
+}
+
+
+header>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-over-image {
+    background: rgba(0, 0, 0, 0);
+    /* box-shadow: inset 545px 0px 60px 0px #000; */
+    width: 50%;
+    height: 100%;
+    /* position: absolute; */
+    margin-top: -500px;
+    margin-left: 500px;
+    transform: translate(-50%, -50%);
+
+}
+
+.text-over-image>h1 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+.text-over-image>p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.text-over-image>button {
+    width: 280px;
+    background-color: #0f79af;
+    padding: 14px 22px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    line-height: 20px;
+    min-height: 459.9px;
+   padding:10px 67.4375px;
+   z-index:1
+}
+
+.favChannels>h1 {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.favChannels>p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 25px;
+    color: #353333;
+}
+
+.channelBtn {
+    width: 60%;
+    display: flex;
+}
+
+.channelBtn img {
+    width: 194px;
+    height: 134px;
+    margin: 5px;
+}
+.channelBtn img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #000, -3px,-3px,8px #000;
+}
+.fire-tv-header{
+    position: relative;
+    min-width: 320px;
+    /* height: 680px; */
+    overflow: hidden;
+    color: #fff;
+}
+.fire-tv-header img{
+    width: 100%;
+    object-fit: contain;
+}
+.fire-over-image{
+    background-color:rgba(0, 0, 0, 0) ;
+    /* background: rgb(0,0,0); */
+    width: 40%;
+    height: 100%;
+    /* position: absolute;
+    top:60%;
+    left:75%; */
+    margin-top: -400px;
+    margin-left: 900px;
+    transform: translate(-50%,-40%);
+}
+.fire-head{
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    display: block;
+    text-align: left;
+    padding: 0px 0px;
+    margin:0px 0px;
+    margin-inline: 0px;
+    margin-block-end: 0px;
+}
+.fire-para{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    line-height: 22.1px;
+    text-align: left;
+    /* font-family: 'Amber Ember Light'; */
+    padding: 0px 0px;
+    margin:30px;
+    margin-inline: 0px;
+    margin-block-end: 0px;
+   text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
+}
+.fire-over-image button{
+    cursor:pointer;
+    display: block;
+    width: 280px;
+    background-color: #0f79af;
+    padding: 14px 22px;
+    margin-top: 15px;
+    font-size: 17px;
+    /* font-family: "Amber Ember Light"; */
+    font-weight: 700;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #0f171e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+
+}
+
+.logo > div {
+    padding-bottom: 5px;
+    text-align: center;
+}
+#footer-img{
+    width: 110px;
+    height: 35px;
+    object-fit: contain;
+    text-align: center;
+}
+
+#copy-right {
+    display: flex;
+    margin: 2px 3px;
+    opacity: 0.7;
+
+}
+
+#copy-right > p {
+    padding-bottom: 20px;
+    margin-left: 20px;
+
+}
+#copy-right > p >a{
+    color: #0f79af;
+    font-size: 15px;
+}
+.copy {
+    color: #949494;
+    font-size: 14x;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
